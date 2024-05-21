@@ -18,23 +18,23 @@ const memoryGame = {
       // вставка фронта
       const frontImg = document.createElement("img");
       frontImg.classList.add("front-img");
-      frontImg.src = "../assets/svg/lapka.svg";
+      frontImg.src = "assets/svg/lapka.svg";
       div.append(frontImg);
     }
   },
   createBackImg() {
     const frontCard = document.querySelectorAll(".card");
     const imageSources = [
-      "../assets/img/fox.png",
-      "../assets/img/homiak.png",
-      "../assets/img/korova.png",
-      "../assets/img/koshka.png",
-      "../assets/img/ovechka.png",
-      "../assets/img/skuns.png",
-      "../assets/img/slon.png",
-      "../assets/img/sova.png",
-      "../assets/img/svinya.png",
-      "../assets/img/utka.png",
+      "assets/img/fox.png",
+      "assets/img/homiak.png",
+      "assets/img/korova.png",
+      "assets/img/koshka.png",
+      "assets/img/ovechka.png",
+      "assets/img/skuns.png",
+      "assets/img/slon.png",
+      "assets/img/sova.png",
+      "assets/img/svinya.png",
+      "assets/img/utka.png",
     ];
     frontCard.forEach((frontCard, index) => {
       const backImg = document.createElement("img");
