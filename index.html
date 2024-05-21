@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>memory-game</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="score"><h2 class="try">Score</h2></div>
+      <div class="game-name"><h2>Memory Game</h2></div>
+      <div class="login"><h2 class="log">Login</h2></div>
+    </div>
+  </header>
+  <main>
+    <div class="container-game">
+      <div class="memory-game"></div>
+      <div class="finish-modal visibility">
+        <div class="finish-container">
+          <div class="finish-text"><h3>Поздравляю, вы победили</h3></div>
+          <div class="finish-try"></div>
+        </div>
+      </div>
+      <div class="score-modal visibility">
+        <div class="score-container">
+          <div class="score-name">Имя</div>
+          <div class="score-score">Попыток</div>
+        </div>
+      </div>
+      <div class="login-modal visibility">
+        <div class="login-container">
+          <label for="text">Введите ваше имя</label>
+          <input class="inp" type="text" placeholder="введи имя">
+          <button class="btn">Ок</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="conteiner-2">
+      <div class="github"><a href="https://github.com/Delskull">2024 DelSkull</a></div>
+      <div class="github logo"><a href="https://rs.school/"><img class="rs" src="assets/svg/rss.svg" alt=""></a></div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
